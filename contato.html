@@ -27,17 +27,21 @@
             <form>
                 <!--ADICIONAR ALT EM TODAS AS IMAGENS-->
                 
-                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <label class="label-obrigatoria" for="nomesobrenome">Nome e Sobrenome</label>
+                <p class="pergunta-obrigatoria">*</p>
                 <input class="input-padrao" type="text" id="nomesobrenome" placeholder="ex.: João das Neves" required>
 
-                <label for="email">Email</label>
+                <label class="label-obrigatoria" for="email">Email</label>
+                <p class="pergunta-obrigatoria">*</p>
                 <input class="input-padrao" type="email" id="email" placeholder="ex.: joaodasneves@mail.com" required>
                 
-                <label for="telefone">Telefone ou Celular</label>
+                <label class="label-obrigatoria" for="telefone">Telefone ou Celular</label>
+                <p class="pergunta-obrigatoria">*</p>
                 <input class="input-padrao" type="tel" id="telefone" placeholder="ex.: (DDD) 00000-0000" required>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea class="input-padrao" id="mensagem" cols="70" rows="10" placeholder="Digite aqui no que podemos te ajudar ;)"
+                <label class="label-obrigatoria" for="mensagem">Mensagem</label>
+                <p class="pergunta-obrigatoria">*</p>
+                <textarea class="input-padrao" id="mensagem" cols="70" rows="10" placeholder="Escreva aqui no que podemos te ajudar ;)"
                 required></textarea>
 
                 <fieldset>

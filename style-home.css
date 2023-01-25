@@ -33,7 +33,7 @@ nav li a:hover {
     text-decoration: underline;
 }
 
-#banner {
+.banner {
     width: 100%;
 }
 
@@ -61,7 +61,7 @@ strong {
     margin: 18px 0;
 }
 
-#missao{
+.missao{
     font-size: 20px;
     font-style: italic;
 }

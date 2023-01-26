@@ -100,9 +100,9 @@ footer {
     margin: 20px 0 0;
 }
 
+/* Verificar se esse background fica bom em todas as páginas ou apenas na Home. Se for deixar apenas na Home, posso criar uma classe no "main" da home e atribuir esse background a ele.*/
 main {
-    width: 940px;
-    margin: 0 auto;
+    background: linear-gradient(#FEFEFE, #888888)
 }
 
 form {
@@ -185,6 +185,11 @@ th, td {
     width: 100%;
 }
 
+.principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
     font-size: 2em;
     text-align: center;
@@ -209,10 +214,56 @@ em {
     font-style: italic;
 }
 
-.mapa {
+.secao-mapa {
+    width: 940px;
+    margin: 0 auto;
     clear: left;
+    padding: 2em 0;
+}
+
+.secao-mapa p {
+    text-align: center;
+    margin: 2em 0 2em;
+}
+
+.mapa {
+    border: solid #6E2C00 5px;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:before {
+    content: "★ ";
+    font-weight: 100;
+}
+
+.itens:nth-of-type(2n) {
+    font-weight: bold;
 }
 
 .imagem-beneficios {
     width: 60%;
+}
+
+.caixa-video {
+    width: 560px;
+    height: 400px;
+    margin: 2em auto 0;  
+}
+
+.video{
+    border: solid #6E2C00 5px;
 }

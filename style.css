@@ -3,6 +3,10 @@
 /* Produtos */
 /* Contato */
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px;
@@ -205,7 +209,7 @@ em {
     font-style: italic;
 }
 
-.beneficios {
+.mapa {
     clear: left;
 }
 

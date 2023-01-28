@@ -269,12 +269,11 @@ em {
     position: relative;
     bottom: 100px;
     left: 300px;
-    /*visibility: hidden;*/
+    visibility: hidden;
 }
 
-.imagem-beneficios:hover .agendar{
+.imagem-beneficios:hover + .agendar{
     visibility: visible;
-    font-size: 40px;
 }
 
 .caixa-video {

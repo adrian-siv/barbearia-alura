@@ -200,6 +200,7 @@ th, td {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+    box-shadow: 5px 5px 5px;
 }
 
 .principal p {
@@ -254,8 +255,26 @@ em {
     font-weight: bold;
 }
 
+.imagem-beneficios:hover{
+    opacity: 0.65;
+    transition: 0.5s;
+} 
+
 .imagem-beneficios {
     width: 60%;
+    box-shadow: 7.5px 7.5px 5px;
+}
+
+.agendar {
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+    /*visibility: hidden;*/
+}
+
+.imagem-beneficios:hover .agendar{
+    visibility: visible;
+    font-size: 40px;
 }
 
 .caixa-video {

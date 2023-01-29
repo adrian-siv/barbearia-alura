@@ -298,3 +298,49 @@ em {
 .video{
     border: solid #6E2C00 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .secao-mapa, .conteudo-beneficios, .lista-beneficios, .caixa-img-beneficios, .caixa-video {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .mapa {
+        box-sizing: border-box;
+    }
+
+    .lista-beneficios {
+        margin-bottom: 1.5em;
+    }
+
+    .conteudo-beneficios {
+        display: block;
+    }
+
+    .imagem-beneficios {
+        width: 98%;
+    }
+
+    .agendar {
+        visibility: visible;
+        margin: 2.7em auto 0.7em;
+    }
+
+    .agendar a{
+        border: solid #000000 2px;
+        border-radius: 5px;
+        padding: 0.7em;
+    }
+
+    .video {
+        box-sizing: border-box;
+    }
+}

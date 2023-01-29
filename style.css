@@ -232,6 +232,7 @@ em {
 }
 
 .conteudo-beneficios {
+    display: flex;
     width: 640px;
     margin: 0 auto;
 }
@@ -255,24 +256,36 @@ em {
     font-weight: bold;
 }
 
-.imagem-beneficios:hover{
+.caixa-img-beneficios {
+    display: inline-block;
+    width: 60%;
+}
+
+.caixa-img-beneficios:hover > .imagem-beneficios{
     opacity: 0.65;
     transition: 0.5s;
 } 
 
 .imagem-beneficios {
-    width: 60%;
+    width: 100%;
     box-shadow: 7.5px 7.5px 5px;
 }
 
 .agendar {
+    text-align: center;
     position: relative;
-    bottom: 100px;
-    left: 300px;
+    bottom: 50%;
     visibility: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.imagem-beneficios:hover + .agendar{
+.agendar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.caixa-img-beneficios:hover > .agendar{
     visibility: visible;
 }
 

@@ -192,7 +192,7 @@ em {
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 30px 15px;
     box-sizing: border-box;
     border: solid #000000 2px;
     border-radius: 5px 5px 80px 80px;
@@ -208,11 +208,11 @@ em {
 }
 
 .produtos li:hover h2{
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -302,10 +302,10 @@ th, td {
     padding: 8px 15px;
 }
 
+
+/*--- CSS RESPONSIVO ---*/
+
 /* Home */
-
-
-
 @media screen and (max-width: 480px) {
     .caixa, .principal, .secao-mapa, .conteudo-beneficios, .lista-beneficios, .caixa-img-beneficios, .caixa-video {
         width: 100%;
@@ -349,5 +349,18 @@ th, td {
 
     .video {
         box-sizing: border-box;
+    }
+}
+
+/* Produtos */
+@media screen and (max-width: 480px) {
+    .produtos {
+        width: 100%;
+    }
+    
+    .produtos li {
+        display: block;
+        width: 75%;
+        margin: 2em auto;
     }
 }

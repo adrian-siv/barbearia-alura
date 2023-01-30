@@ -30,7 +30,7 @@ nav li a {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 nav li a:hover {
@@ -311,20 +311,28 @@ th, td {
 
 /*--- CSS RESPONSIVO ---*/
 
-/* Home */
+/*-- Telas até 480px --*/
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .secao-mapa, .conteudo-beneficios, .lista-beneficios, .caixa-img-beneficios, .caixa-video {
-        width: 100%;
-    }
 
+/*- Comum a todas as páginas -*/
     h1 {
         text-align: center;
     }
-
+    
     nav {
         position: static;
         text-align: center;
     }
+
+    nav li a {
+        font-size: 22px;
+    }
+
+/* Home */
+    .caixa, .principal, .secao-mapa, .conteudo-beneficios, .lista-beneficios, .caixa-img-beneficios, .caixa-video {
+        width: 100%;
+    }
+
 
     .mapa {
         box-sizing: border-box;
@@ -356,10 +364,9 @@ th, td {
     .video {
         box-sizing: border-box;
     }
-}
+
 
 /* Produtos */
-@media screen and (max-width: 480px) {
     .secao-produtos {
         width: 100%;
     }
@@ -369,9 +376,36 @@ th, td {
         width: 75%;
         margin: 2em auto;
     }
-}
+
 
 /* Contato */
-@media screen and (max-width: 480px){
-    
+    .secao-formulario {
+        width: 100%;
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+
+    .input-padrao {
+        width: 75%;
+    }
+
+    .enviar {
+        width: 70%;
+        display: block;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .enviar:hover {
+        background: orange ;
+        transform: none;
+    }
+
+    .secao-tabela {
+        width: 100%;
+    }
+
+    .secao-tabela table {
+        margin: 0 auto;
+    }
 }
